@@ -9,4 +9,5 @@ $provisionedActivities = array("Specs", "Mugs", "Sausage Rolls");
 
 foreach($provisionedActivities as $x) {
     echo $x;
+    echo "";
 }
