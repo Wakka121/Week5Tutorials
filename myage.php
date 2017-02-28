@@ -4,6 +4,7 @@
 
 </head>
 <body>
+<p>This is always displayed</p>
 <?php
     $myage = 22;
     if($myage>=21){
