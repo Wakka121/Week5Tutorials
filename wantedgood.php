@@ -5,7 +5,7 @@
  * Date: 28/02/2017
  * Time: 16:09
  */
-$wantedgood = "mugs";
+$wantedgood = "specs";
 
 switch($wantedgood){
     case "mugs":
@@ -20,3 +20,4 @@ switch($wantedgood){
     default:
         echo "Input your wanted good to see the age restriction";
 }
+?>
