@@ -6,7 +6,7 @@
 <body>
 <p>This is always displayed</p>
 <?php
-    $myage = 22;
+    $myage = 17;
     if($myage>=21){
         echo "<p>You can buy sausage rolls, mugs and specs</p>";
     }
