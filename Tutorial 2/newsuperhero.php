@@ -18,7 +18,6 @@ elseif ($_SERVER["REQUEST_METHOD"]==="POST"){
     echo "Gender: " . $gender . "<br>";
     echo "Power: " . $power . "<br>";
 }
-
 ?>
 </body>
 </html>
