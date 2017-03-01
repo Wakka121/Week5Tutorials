@@ -9,15 +9,15 @@ $array = array();
 $goods = "no products";
 
 for ($day = 1; $day < 31; $day ++){
-    if (($day % 2) == 1){
+    if (($day % 2) == 0){
         $array[] = "specs";
     }
 
-    if (($day % 3) == 1){
+    if (($day % 3) == 0){
         $array[] = "mugs";
     }
 
-    if (($day % 4) == 1){
+    if (($day % 4) == 0){
         $array[] = "sausage rolls";
     }
 
