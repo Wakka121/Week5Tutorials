@@ -12,8 +12,9 @@ $goods = array("specs","mugs","sausage rolls");
 while($inv[0]>0 and $inv[1]>0 and $inv[2]>0){
     $todaysGood = rand(0,2);
 
-    print "On day $day of the month $inv[$todaysGood] are available<br>";
+    print "On day $day of the month $goods[$todaysGood] are available<br>";
     $inv[$todaysGood] = $inv[$todaysGood]-1;
+    $day++;
 }
 
 print "No more goods are available this month";
