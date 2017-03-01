@@ -12,7 +12,7 @@ function wanted($name,$specs,$mugs,$sausageRolls){
     print "Mugs x $mugs<br>";
     print "Sausage Rolls x $sausageRolls<br>";
     $award = 10 * (($specs*$mugs*$sausageRolls)*($specs*$mugs*$sausageRolls))/2;
-    print "Award for capture: £$award<br>";
+    print "Award for capture: £$award<br><br>";
 }
 
 wanted("James Cusiter",7,8,4);
